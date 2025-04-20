@@ -21,6 +21,8 @@ That's why ejigo — a lightweight CLI tool to help me keep track of absences pe
 - `reset`: Reset all courses (at the end of the semester)
 - `summary`: View your courses and their absence counts
 
+use ejigo --help for more details
+
 ---
 
 ## 📦 Installation (Manual)
@@ -30,7 +32,7 @@ That's why ejigo — a lightweight CLI tool to help me keep track of absences pe
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/hababi/ejigo.git
+git clone https://github.com/hababisha/ejigo.git
 cd ejigo
 ```
 
