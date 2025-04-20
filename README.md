@@ -1,6 +1,9 @@
 # ejigo 
 
-**Skip classes with freedom.**  
+**Skip classes with freedom.** 
+
+![Alt text](https://upload.wikimedia.org/wikipedia/en/0/0d/Kitaw_Ejigu.jpeg)
+
 `ejigo` is a simple command-line tool to track your university courses and absence counts — nothing fancy, made it to learn go.
 
 
