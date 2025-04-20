@@ -14,7 +14,7 @@ var (
 )
 
 func init() {
-	addCmd.PersistentFlags().IntVar(&defaultAbsentCount, "absent", 1, "default absent out for course")
+	addCmd.PersistentFlags().IntVar(&defaultAbsentCount, "absent", 0, "default absent out for course")
 	absentCmd.PersistentFlags().IntVar(&absentCount, "count", 1, "absent count")
 
 	rootCmd.AddCommand(resetCmd)
