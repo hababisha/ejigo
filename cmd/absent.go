@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+
 	"github.com/hababisha/ejigo/utils"
 	"github.com/spf13/cobra"
 )
@@ -15,7 +16,7 @@ var absentCmd = &cobra.Command{
 
 		courses, _ := utils.GetCourses()
 		if course, exists := courses[name]; exists {
-			course.Absences++
+			course.Absences += absentCount
 			utils.SaveCourses(courses)
 			fmt.Printf("You got absent for course: %s\n", name)
 			fmt.Printf("Total: %d", course.Absences)

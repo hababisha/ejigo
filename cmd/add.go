@@ -2,6 +2,7 @@ package cmd
 
 import (
 	"fmt"
+
 	"github.com/hababisha/ejigo/models"
 	"github.com/hababisha/ejigo/utils"
 	"github.com/spf13/cobra"
@@ -20,7 +21,7 @@ var addCmd = &cobra.Command{
 			return
 		}
 
-		courses[name] = &models.Course{Name: name, Absences: 0}
+		courses[name] = &models.Course{Name: name, Absences: defaultAbsentCount}
 		utils.SaveCourses(courses)
 		fmt.Printf("added course: %s\n", name)
 	},
